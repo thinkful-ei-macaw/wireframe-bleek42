@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: auto;
+grid-gap: 2rem;
+}
+
+html {
+font-family: Oxanium;
+}
+
+@font-face {
+font-family: Oxanium;
+src: url(fonts/Oxanium/Oxanium-Bold.ttf)
+}
+
+@font-face {
+font-family: birdman;
+src: url(fonts/birdman/BIRDO___.TTF);
+}
+
+body {
+background-image: url(images/source_code.jpg);
+background-position: center;
+background-repeat: repeat-y;
+
+}
+
+header { 
+font-family: birdman;
+display: flex;
+flex-flow: column;
+border: 4px solid black;
+border-radius: 3em;
+padding: 2em;
+}
+
+ul {
+display: flex;
+justify-content: space-around;
+font-family: birdman;
+font-size: 20px;
+margin: 20px;
+padding: 30px;
+border: 4px solid black;
+border-radius: 3em;
+padding: 2em;
+}
+
+li {
+list-style: none;
+}
+
+h1 {
+font-weight: bolder;
+font-size: 4em;
+margin: 0.67em 0;
+}
+
+h2 {
+font-size: 3em;
+font-weight: bold;
+margin: 1em;
+}
+
+#welcome {
+display: flex;
+flex-flow: column;
+margin: 20px;
+padding: 30px;
+border: 4px solid black;
+border-radius: 3em;
+padding: 2em;
+font-size: 27px;
+color: 
+}
+
+#about-me {
+  display: flex;
+  flex-flow: column;
+  margin: 20px;
+  padding: 30px;
+  border: 4px solid black;  
+  border-radius: 3em;
+  padding: 2em;
+  font-size: 27px;
+}
+
+#projects {
+  display: flex;
+  flex-flow: column;
+  margin: 20px;
+  padding: 30px;
+  border: 4px solid black;
+  border-radius: 3em;
+  padding: 2em;
+  font-size: 27px;
+}
+  
+#contact-info {
+  display: flex;
+  flex-flow: column;
+  margin: 20px;
+  padding: 30px;
+  border: 4px solid black;
+  border-radius: 3em;
+  padding: 2em;
+  font-size: 27px;
+}
