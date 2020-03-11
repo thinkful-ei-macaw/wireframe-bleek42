@@ -22,8 +22,7 @@ font-family: birdman;
 src: url(fonts/birdman/BIRDO___.TTF);
 }
 
-body {
-background-image: url(images/source_code.jpg);
+.body {
 background-position: center;
 background-repeat: repeat-y;
 
